@@ -1,4 +1,4 @@
-# sql-query-formater
+# sql-query-formatter
  
  A Python script to format SQL query based on a selected style. 
  
