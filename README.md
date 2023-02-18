@@ -37,7 +37,8 @@ file_name:
 A string representing the name of the file where the formatted SQL code is saved.
 External Libraries
 re: A built-in module in Python that provides support for regular expressions.
-Usage
+
+# Usage
 The script can be run using Python 3.x. Upon running the script, the user is prompted to enter SQL code and select a formatting style. The script then formats the SQL code based on the selected style and prints the formatted SQL code to the console. The user is prompted to enter a file name to save the formatted SQL code.
 
 Note: The script assumes that the user will enter a valid file name and extension. If an invalid file name is entered, the script will raise an exception.
