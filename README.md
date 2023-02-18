@@ -1,4 +1,4 @@
-# sql-qyey-formater
+# sql-query-formater
  
  A Python script to format SQL query based on a selected style. 
  
