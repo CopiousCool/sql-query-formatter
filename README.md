@@ -1,5 +1,15 @@
 # sql-qyey-formater
- A Python script to format SQL query based on a selected style. Available styles: 1. apexSQL 2. compact 3. Extended 4. MSDN SQL BOL 5. Oracle 6. PostgreSQL
+ 
+ A Python script to format SQL query based on a selected style. 
+ 
+ Available styles: 
+ 1. apexSQL 
+ 2. compact 
+ 3. Extended 
+ 4. MSDN SQL BOL 
+ 5. Oracle 
+ 6. PostgreSQL
+
 
 # Name
 format_sql - A Python function to format SQL query based on a selected style.
@@ -14,7 +24,15 @@ The formatted SQL code is then printed to the console for the user to verify. Th
 # Functions
 format_sql(query: str, style: str) -> str:
 
-# Parameters:
+The main function in the script is format_sql(). This function takes in two parameters, the query which is the SQL query to be formatted, and style, which is the chosen formatting style. The function then applies various regular expressions to format the query based on the chosen style.
+
+The style_map() function is a dictionary that maps user input to the appropriate style name.
+
+The script also has a main() function which handles user input, calls the format_sql() function to format the SQL query, and then saves the formatted query to a file.
+
+Overall, the functions in the script work together to allow the user to input a SQL query and choose a formatting style, and then output the formatted query for the user to verify and save to a file if desired.
+
+Parameters:
 query (str): A string containing SQL code that needs to be formatted.
 style (str): A string that represents the selected formatting style.
 Returns:
